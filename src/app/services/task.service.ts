@@ -5,6 +5,7 @@ import { HttpClient,HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class TaskService {
+  private apiUrl = 'http://localhost:3000/tasks';
 
   constructor() { }
 }
