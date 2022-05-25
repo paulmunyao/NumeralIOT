@@ -11,7 +11,7 @@ export class TaskService {
 
   constructor(private http:HttpClient) {}
 
-  getTasks() {
+  getTasks(): Task[] {
     return TASKS;
   }
 }
