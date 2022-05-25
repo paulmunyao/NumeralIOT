@@ -12,7 +12,8 @@ export class TaskService {
 
   constructor(private http:HttpClient) {}
 
-  getTasks(): Task[] {
-    return TASKS;
+  getTasks(): Observable<Task[]> {
+    const tasks = of(TASKS);
+    return tasks;
   }
 }
