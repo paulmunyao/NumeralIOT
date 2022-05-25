@@ -10,4 +10,8 @@ export class TaskService {
   private apiUrl = 'http://localhost:3000/tasks';
 
   constructor(private http:HttpClient) {}
+
+  getTasks() {
+    return TASKS;
+  }
 }
