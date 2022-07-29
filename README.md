@@ -1,5 +1,5 @@
 # NumeralIOT
-This is an angular project that I did as a refresher course using Traversy media
+This is an angular course that I did as a refresher course using Traversy media
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
 ## Development server
